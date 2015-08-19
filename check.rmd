@@ -685,6 +685,10 @@ There are two particularly useful options:
    `r-cran-lowercasename`. For example, searching for `r-cran-xml` reveals that 
    you can get a binary version of XML package.
 
+### R-builder
+
+The [R-builder project](https://github.com/metacran/r-builder) allows to check a package against various versions of R (by default, the latest version, the R-devel version, and R-oldrel, which refers to the last release from the previous minor version). 
+
 ### Other uses
 
 Since Travis allows you to run arbitrary code, there are many other things that you can use it for:
